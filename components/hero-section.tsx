@@ -17,30 +17,34 @@ export function HeroSection() {
         </video>
         <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/30 to-foreground/10" />
 
-        <div className="absolute inset-0 flex flex-col items-center justify-end pb-16 md:pb-24 px-4 text-center">
-          <p className="text-primary-foreground/70 text-xs md:text-sm uppercase tracking-[0.4em] mb-4 font-sans">
-            Curated Antiques &amp; Vintage Finds &mdash; Since 2015
-          </p>
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-primary-foreground leading-[1.05] text-balance max-w-4xl">
-            Every Piece Tells a Story
-          </h1>
-          <p className="mt-4 md:mt-6 max-w-lg text-primary-foreground/80 text-base md:text-lg leading-relaxed">
-            Discover one-of-a-kind treasures from decades past, carefully
-            selected and lovingly preserved in the heart of Newnan, Georgia.
-          </p>
-          <div className="mt-8 flex flex-col sm:flex-row gap-4">
-            <Link
-              href="/#shop"
-              className="inline-flex items-center justify-center px-10 py-3.5 min-h-[48px] bg-accent text-accent-foreground text-sm uppercase tracking-[0.2em] font-medium rounded-lg hover:opacity-90 transition-opacity"
-            >
-              Shop Collection
-            </Link>
-            <Link
-              href="/#about"
-              className="inline-flex items-center justify-center px-10 py-3.5 min-h-[48px] border border-primary-foreground/30 text-primary-foreground text-sm uppercase tracking-[0.2em] font-medium rounded-lg hover:bg-primary-foreground/10 transition-colors"
-            >
-              Our Story
-            </Link>
+        <div className="absolute inset-0 flex items-end px-4 pb-16 md:pb-24">
+          <div className="mx-auto w-full max-w-7xl">
+            <div className="max-w-3xl text-left">
+              <p className="text-primary-foreground/70 text-xs md:text-sm uppercase tracking-[0.4em] mb-4 font-sans">
+                Curated Antiques &amp; Vintage Finds &mdash; Since 2015
+              </p>
+              <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-primary-foreground leading-[1.05] text-balance">
+                Every Piece Tells a Story
+              </h1>
+              <p className="mt-4 md:mt-6 max-w-lg text-primary-foreground/80 text-base md:text-lg leading-relaxed">
+                Discover one-of-a-kind treasures from decades past, carefully
+                selected and lovingly preserved in the heart of Newnan, Georgia.
+              </p>
+              <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/#shop"
+                  className="inline-flex items-center justify-center px-10 py-3.5 min-h-[48px] bg-accent text-accent-foreground text-sm uppercase tracking-[0.2em] font-medium rounded-lg hover:opacity-90 transition-opacity"
+                >
+                  Shop Collection
+                </Link>
+                <Link
+                  href="/#about"
+                  className="inline-flex items-center justify-center px-10 py-3.5 min-h-[48px] border border-primary-foreground/30 text-primary-foreground text-sm uppercase tracking-[0.2em] font-medium rounded-lg hover:bg-primary-foreground/10 transition-colors"
+                >
+                  Our Story
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
