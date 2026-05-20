@@ -1,0 +1,16 @@
+{
+  "name": "Vintage Vault",
+  "short_name": "Vintage Vault",
+  "description": "Curated antiques and vintage finds in Newnan, Georgia",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0ebe2",
+  "theme_color": "#f0ebe2",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
