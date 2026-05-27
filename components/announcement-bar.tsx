@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 
 const announcements = [
-  "Free shipping on orders over $500",
-  "New arrivals added weekly \u2014 check back often",
+  "Visit Vintage Vault Antique Marketplace in Newnan, Georgia",
+  "Curated antiques, vintage furniture, clothing, and decor",
   "Visit us at 680 N Hwy 29, Newnan, GA — across from the VFW",
 ];
 

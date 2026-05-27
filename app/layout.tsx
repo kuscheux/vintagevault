@@ -24,7 +24,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "Vintage Vault | Antiques, Vintage Clothing & Housewares | Newnan, GA",
   description:
-    "Shop antiques, vintage furniture, clothing, and housewares at Vintage Vault - 680 US 29 N, Newnan, GA. Open Thursday - Sunday, 1-6 PM. Call 678-675-3890.",
+    "Visit Vintage Vault Antique Marketplace for antiques, vintage furniture, clothing, and housewares at 680 N Hwy 29, Newnan, GA. Call 678-675-3890.",
   keywords: [
     "vintage",
     "antiques",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Vintage Vault | Antiques, Vintage Clothing & Housewares",
     description:
-      "Antiques, vintage furniture, clothing, and housewares at 680 US 29 N, Newnan, GA. Open Thu-Sun 1-6 PM.",
+      "Antiques, vintage furniture, clothing, and housewares at 680 N Hwy 29, Newnan, GA.",
     type: "website",
   },
 };

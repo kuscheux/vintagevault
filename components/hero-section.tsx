@@ -32,10 +32,10 @@ export function HeroSection() {
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <Link
-                  href="/#shop"
+                  href="/#contact"
                   className="inline-flex items-center justify-center px-10 py-3.5 min-h-[48px] bg-accent text-accent-foreground text-sm uppercase tracking-[0.2em] font-medium rounded-lg hover:opacity-90 transition-opacity"
                 >
-                  Shop Collection
+                  Visit Us
                 </Link>
                 <Link
                   href="/#about"

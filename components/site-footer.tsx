@@ -14,7 +14,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-4 py-14">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
           {/* Brand */}
-          <div className="md:col-span-5">
+          <div className="md:col-span-6">
             <Link href="/" className="inline-block">
               <span className="font-serif text-2xl font-bold text-foreground">
                 Vintage Vault
@@ -47,41 +47,8 @@ export function SiteFooter() {
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div className="md:col-span-2">
-            <h4 className="font-semibold text-foreground text-xs uppercase tracking-[0.2em] mb-4">
-              Shop
-            </h4>
-            <nav className="flex flex-col gap-2.5" aria-label="Footer shop links">
-              <Link
-                href="/#shop"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-              >
-                All Items
-              </Link>
-              <Link
-                href="/#categories"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Furniture
-              </Link>
-              <Link
-                href="/#categories"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Decor
-              </Link>
-              <Link
-                href="/#categories"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Lighting
-              </Link>
-            </nav>
-          </div>
-
           {/* Info Links */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-3">
             <h4 className="font-semibold text-foreground text-xs uppercase tracking-[0.2em] mb-4">
               Info
             </h4>
@@ -103,12 +70,6 @@ export function SiteFooter() {
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 (678) 675-3890
-              </a>
-              <a
-                href="#"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Shipping & Returns
               </a>
             </nav>
           </div>
